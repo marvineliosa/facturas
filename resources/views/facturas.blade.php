@@ -1,23 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Facturas</title>
-	
-</head>
-<body>
+@extends('plantillas.menu')
+@section('titulo','Facturas')
+@section('content')
+<h1 class="h3 mb-4 text-gray-800">Contenido</h1>
+<div class="row">
 
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<div class="container">  
-    <div class="panel panel-default">
-        <div class="panel-heading"> SignUp to the system </div>
-        <div class="panel-body">
-            Test Panel
-        </div>
-        <div class="panel-footer"> You have 3 More attempts left! </div>
+  <div class="col-lg-12">
+
+    <!-- Basic Card Example -->
+    <div class="card shadow mb-4">
+      <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Basic Card Example</h6>
+      </div>
+      <div class="card-body">
+        The styling for this basic card example is created by using default Bootstrap utility classes. By using utility classes, the style of the card component can be easily modified with no need for any custom CSS!
+      </div>
     </div>
+
+  </div>
 </div>
-	
-</body>
-</html>
+@endsection
